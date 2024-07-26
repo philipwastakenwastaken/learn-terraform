@@ -3,13 +3,15 @@
 
 terraform {
 
+  /*
   cloud {
-    organization = "organization-name"
+    organization = "pni-terraform-cert-org"
 
     workspaces {
       name = "learn-terraform"
     }
   }
+  */
 
   required_providers {
     aws = {
